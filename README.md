@@ -20,19 +20,19 @@ Como parte dos exercícios práticos, este projeto demonstra o provisionamento d
 1.  **VPC (Virtual Private Cloud):** Uma rede virtual isolada na AWS, com subnets públicas e privadas, NAT Gateway e VPN Gateway, utilizando o módulo `terraform-aws-modules/vpc/aws`.
 2.  **Instância EC2:** Uma máquina virtual Ubuntu (22.04 LTS) provisionada dentro da VPC criada.
 
-## 📁 Estrutura do Projeto:# terraform-ada-intro-devops
-Introdução ao IaC com Terraform - Curso DevOps Básico ADA
+## 📁 Estrutura do Projeto:
 
+```bash
 .
-├── .gitignore # Arquivos a serem ignorados pelo Git
-├── data.tf # Definição de fontes de dados (ex: AMI ID)
-├── main.tf # Configurações principais dos recursos (VPC e EC2)
-├── outputs.tf # Saídas importantes do projeto (ex: IP Privado da EC2)
-├── providers.tf # Configuração do provedor AWS
-├── settings.tf # Configurações do Terraform (versão do provedor)
-├── terraform-dev.tfvars # Variáveis para ambiente de desenvolvimento
-├── variables.tf # Declaração das variáveis do projeto
-└── README.md # Este arquivo
+├── .gitignore                 # Arquivos a serem ignorados pelo Git
+├── data.tf                    # Definição de fontes de dados (ex: AMI ID)
+├── main.tf                    # Configurações principais dos recursos (VPC e EC2)
+├── outputs.tf                 # Saídas importantes do projeto (ex: IP Privado da EC2)
+├── providers.tf               # Configuração do provedor AWS
+├── settings.tf                # Configurações do Terraform (versão do provedor)
+├── terraform-dev.tfvars       # Variáveis para ambiente de desenvolvimento
+├── variables.tf               # Declaração das variáveis do projeto
+└── README.md                  # Este arquivo
 
 
 ## ⚙️ Pré-requisitos:
