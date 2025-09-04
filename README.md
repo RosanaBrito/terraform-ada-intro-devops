@@ -93,6 +93,7 @@ Para evitar custos indesejados, é fundamental destruir os recursos após termin
 ```bash
 terraform destroy -var-file="terraform-dev.tfvars"
 Confirme com yes quando solicitado
+````
 
 
 ## 🔗 Referências Úteis:
