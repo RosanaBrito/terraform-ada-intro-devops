@@ -100,12 +100,15 @@ Sinta-se à vontade para abrir issues ou pull requests caso encontre melhorias o
 📄 Licença:
 Este projeto está sob a licença MIT.
 
-🔗 Referências Úteis:
-Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas e são recursos valiosos para aprofundar o conhecimento em Terraform e AWS:
-AWS Provider Documentation: Documentação oficial do provedor AWS para Terraform, detalhando todos os recursos e datasources disponíveis.
-https://registry.terraform.io/providers/hashicorp/aws/latest
-Terraform AWS VPC Module: Documentação do módulo oficial da HashiCorp para provisionamento de VPCs na AWS, utilizado neste projeto.
-https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest
-Terraform Language - Modules: Documentação sobre o uso e criação de módulos na linguagem Terraform, um conceito fundamental para projetos escaláveis.
-https://developer.hashicorp.com/terraform/language/modules
+## 🔗 Referências Úteis:
 
+Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas:
+
+*   **AWS Provider Documentation:** Documentação oficial do provedor AWS para Terraform, detalhando todos os recursos e datasources disponíveis.
+    [https://registry.terraform.io/providers/hashicorp/aws/latest](https://registry.terraform.io/providers/hashicorp/aws/latest)
+
+*   **Terraform AWS VPC Module:** Documentação do módulo oficial da HashiCorp para provisionamento de VPCs na AWS, utilizado neste projeto.
+    [https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
+
+*   **Terraform Language - Modules:** Documentação sobre o uso e criação de módulos na linguagem Terraform, um conceito fundamental para projetos escaláveis.
+    [https://developer.hashicorp.com/terraform/language/modules](https://developer.hashicorp.com/terraform/language/modules)
