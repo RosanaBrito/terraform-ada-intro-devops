@@ -92,33 +92,17 @@ Para evitar custos indesejados, é fundamental destruir os recursos após termin
 
 ```bash
 terraform destroy -var-file="terraform-dev.tfvars"
-Confirme com yes quando solicitado.
-
-
-## 🤝 Contribuições:
-
-Sinta-se à vontade para abrir issues ou pull requests caso encontre melhorias ou queira adicionar mais exemplos.
-
-## 📄 Licença:
-
-Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
+Confirme com yes quando solicitado
 
 ## 🔗 Referências Úteis:
-
-<<<<<<< HEAD
-## 🔗 Referências Úteis:
-
-Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas:
-
 
 Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas e são recursos valiosos para aprofundar o conhecimento em Terraform e AWS:
 
->>>>>>> 4df8ec6 (Revise license and enhance references in README)
-*   **AWS Provider Documentation:** Documentação oficial do provedor AWS para Terraform, detalhando todos os recursos e datasources disponíveis.
+* **AWS Provider Documentation:** Documentação oficial do provedor AWS para Terraform, detalhando todos os recursos e datasources disponíveis.
     [https://registry.terraform.io/providers/hashicorp/aws/latest](https://registry.terraform.io/providers/hashicorp/aws/latest)
 
-*   **Terraform AWS VPC Module:** Documentação do módulo oficial da HashiCorp para provisionamento de VPCs na AWS, utilizado neste projeto.
+* **Terraform AWS VPC Module:** Documentação do módulo oficial da HashiCorp para provisionamento de VPCs na AWS, utilizado neste projeto.
     [https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
 
-*   **Terraform Language - Modules:** Documentação sobre o uso e criação de módulos na linguagem Terraform, um conceito fundamental para projetos escaláveis.
+* **Terraform Language - Modules:** Documentação sobre o uso e criação de módulos na linguagem Terraform, um conceito fundamental para projetos escaláveis.
     [https://developer.hashicorp.com/terraform/language/modules](https://developer.hashicorp.com/terraform/language/modules)
