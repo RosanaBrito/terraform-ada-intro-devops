@@ -94,16 +94,26 @@ Para evitar custos indesejados, é fundamental destruir os recursos após termin
 terraform destroy -var-file="terraform-dev.tfvars"
 Confirme com yes quando solicitado.
 
-🤝 Contribuições:
+
+## 🤝 Contribuições:
+
 Sinta-se à vontade para abrir issues ou pull requests caso encontre melhorias ou queira adicionar mais exemplos.
 
-📄 Licença:
-Este projeto está sob a licença MIT.
+## 📄 Licença:
 
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
+
+## 🔗 Referências Úteis:
+
+<<<<<<< HEAD
 ## 🔗 Referências Úteis:
 
 Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas:
 
+
+Durante o desenvolvimento deste laboratório, as seguintes documentações foram consultadas e são recursos valiosos para aprofundar o conhecimento em Terraform e AWS:
+
+>>>>>>> 4df8ec6 (Revise license and enhance references in README)
 *   **AWS Provider Documentation:** Documentação oficial do provedor AWS para Terraform, detalhando todos os recursos e datasources disponíveis.
     [https://registry.terraform.io/providers/hashicorp/aws/latest](https://registry.terraform.io/providers/hashicorp/aws/latest)
 
